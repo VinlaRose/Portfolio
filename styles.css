@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #822659;
+    --secondary-color: #B34180;
+    --tertiary-color: #E36BAE;
+    --fourth-color: #F8A1D1;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+ 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* margin: 0px; */
+
+/* header */
+.navigation{
+    background-color: var(--fourth-color);
+    color: var(--primary-color);  
+    padding: 0.5rem;  
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.navigation .link{
+    color: var(--primary-color);
+    text-decoration:none;
+    font-size: larger;
+}
+
+.navigation .navpills{
+    text-align: right;
+
+}
+
+.navigation .nav-brand{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 2rem;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem;
+}
+.hero-image{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+   
+   
+}
