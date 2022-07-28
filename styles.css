@@ -7,33 +7,37 @@
 }
 
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Arima&family=Poppins:wght@200&display=swap');
 
  
 body{
     font-family: 'Arima', cursive;
+  
+  margin: 0px auto;
+  max-width: 100%;
+  width: 100%;
 }
+
+
 /* margin: 0px; */
 
 /* header */
 .navigation{
-    background-color: var(--fourth-color);
-    color: var(--primary-color);  
-    padding: 0.5rem;  
+    background-color: #822659;
+    color: beige;  
+    
 }
 
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 0.5rem;
-}
+/* .container{
+    padding: 0rem, 0.25rem;
+    /* border-radius: 0.5rem; */
+ */
 
-.navigation .link{
+.link{
     color: var(--primary-color);
-    text-decoration:none;
     font-size: larger;
+    padding-bottom: 2px;
+    text-decoration: none;
 }
 
 .navigation .navpills{
@@ -41,10 +45,13 @@ body{
 
 }
 
+    
+
 .navigation .nav-brand{
     font-weight: bolder;
     font-size: x-large;
-    padding-top: 2rem;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 .list-item-inline{
@@ -52,12 +59,10 @@ body{
     padding: 0.5rem;
 }
 .hero-image{
-    max-width: 50%;
-    height: auto;
+    max-width: 80%;
+    width: 550px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
+    margin: auto;
    
    
 }
@@ -84,16 +89,19 @@ body{
     text-align: center;
 }
 .section-link{
-    background-color: #B34180;
-    color: beige;
-    padding: 0.5rem;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
     text-decoration: none;
-    border-radius: 10%;
 }
 .footer{
     display: block;
     background-color: #822659;
     padding: 2rem;
+    
 }
 .footer-heading{
     text-align: center;
@@ -104,6 +112,8 @@ body{
 .footer-link{
     color: beige;
     text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
 }
 .footer-list-align{
     text-align: center;
