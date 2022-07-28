@@ -58,3 +58,51 @@ body{
    
    
 }
+.section{
+    display: block;
+    background-color: #f8a1d12f;
+    padding: 2.5rem;
+    text-align: center;
+}
+.section-headings{
+    text-align: center;
+    text-shadow: #F8A1D1;
+    color:#822659;
+    font-weight: bold;
+}
+.section-content{
+    text-align: center;
+    color: black;
+}
+.section2{
+    display: block;
+    background-color: #f8a1d107;
+    padding: 2.5rem;
+    text-align: center;
+}
+.section-link{
+    background-color: #B34180;
+    color: beige;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 10%;
+}
+.footer{
+    display: block;
+    background-color: #822659;
+    padding: 2rem;
+}
+.footer-heading{
+    text-align: center;
+    color: beige;
+    font-weight: bold;
+}
+
+.footer-link{
+    color: beige;
+    text-decoration: none;
+}
+.footer-list-align{
+    text-align: center;
+    padding: 0.5rem;
+}
