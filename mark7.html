@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation app</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="mark7_app.js" rel="stylesheet"/>
+    <style>
+        textarea{
+            display: block;
+            width: 50%;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header-design">
+        <h1>Translator</h1>
+    </header>
+   
+    <textarea 
+    id="text-input"
+    placeholder="Put your sentence in English here, and we will convert it to the langauage of your choice."></textarea>
+    
+    
+  
+  
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <button>Language</button>
+        </li>
+        <li class="list-item-inline">
+            <button>Language</button> 
+        </li>
+        <li class="list-item-inline">
+            <button>Language</button>
+        </li>
+        <li class="list-item-inline">
+            <button>Language</button>
+        </li>
+        <li class="list-item-inline">
+            <button>Language</button>
+        </li>
+      </ul>
+
+    <button class="btn-design" id="btn-translate"> Translate </button>
+    <div style="font-size: larger;">Output will come here 👇🏻</div>
+    <div id="output"></div>
+
+  
+</body>
+</html>
