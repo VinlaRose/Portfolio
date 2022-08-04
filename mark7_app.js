@@ -4,10 +4,17 @@ var languageselect3 = document.querySelector("#language3");
 var languageselect4 = document.querySelector("#language4");
 var languageselect5 = document.querySelector("#language5");
 
+
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
+var serverURL = "https://api.funtranslations.com/translate/yoda.json"
+
+var serverURL = "https://api.funtranslations.com/translate/pirate.json"
+var serverURL = "https://api.funtranslations.com/translate/valspeak.json"
+
 var btnTranslate = document.querySelector("#btn-translate");
+
 var txtInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
 // outputDiv.innerText = "vinla";
 
 
