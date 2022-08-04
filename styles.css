@@ -11,8 +11,7 @@
 
  
 body{
-    font-family: 'Arima', cursive;
-  
+  font-family: 'Arima', cursive;
   margin: 0px auto;
   max-width: 100%;
   width: 100%;
@@ -122,12 +121,15 @@ body{
     background-color: #f8a1d12f;
     padding: 2.5rem;
     text-align: center;
+    width: 100%;
+    
 }
 .section-headings{
     text-align: center;
     text-shadow: #F8A1D1;
     color:#822659;
     font-weight: bold;
+    
 }
 .section-content{
     text-align: center;
@@ -138,6 +140,11 @@ body{
     background-color: #f8a1d107;
     padding: 2.5rem;
     text-align: center;
+    width: 100%;
+    
+
+    
+
 }
 .section-link{
     max-width: 140px;
