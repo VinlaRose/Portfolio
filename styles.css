@@ -39,7 +39,7 @@ body{
   .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
   
   .link-primary {
@@ -110,7 +110,7 @@ body{
 
 .list-item-inline{
     display: inline;
-    padding: 0.5rem;
+    padding: 0.25rem;
 }
 .hero-image{
     max-width: 80%;
