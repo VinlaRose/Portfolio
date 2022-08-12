@@ -47,10 +47,10 @@ body{
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     color: #fff;
-    /* margin: 1rem auto; */
+    margin: 1rem auto;
     border-radius: 2rem;
     text-decoration: none;
-    margin: auto;
+    
   }
   .link-secondary {
     /* max-width: 140px; */
@@ -60,7 +60,7 @@ body{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     text-decoration: none;
-    margin: auto;
+    margin: 1rem auto;
   }
   
   
