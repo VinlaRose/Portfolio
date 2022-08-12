@@ -113,11 +113,14 @@ body{
     padding: 0.5rem;
 }
 .hero-image{
-  width: 40px;
-  padding: 1rem 0.2rem;
-   
-   
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+    padding: 1rem 0.2rem;
 }
+   
+   
 
 .section{
     display: block;
