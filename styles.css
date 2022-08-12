@@ -188,3 +188,33 @@ body{
     padding: 0.5rem;
 }
 
+
+
+.showcase-list {
+  /* padding: 2rem; */
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+.showcase-list h1 {
+  margin: 0.5rem;
+}
+
+.showcase-list p {
+  padding-bottom: 1rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.containerpr {
+  padding: 0rem 1rem;
+}
+
+.containerpr-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
