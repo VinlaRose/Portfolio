@@ -39,7 +39,7 @@ body{
   .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
   }
   
   .link-primary {
@@ -49,9 +49,7 @@ body{
     color: #fff;
     margin: 1rem auto;
     border-radius: 2rem;
-    text-decoration: none;
   }
-  
   .link-secondary {
     max-width: 140px;
     margin: 1rem;
@@ -140,6 +138,7 @@ body{
 .section-content{
     text-align: center;
     color: black;
+    padding:1.5rem;
 }
 .section2{
     display: block;
@@ -153,14 +152,18 @@ body{
 
 }
 .section-link{
-    max-width: 140px;
-    padding: 0.6rem 1.2rem;
-    background-color: var(--primary-color);
-    color: #fff;
-    margin: 1rem auto;
-    border-radius: 2rem;
-    text-decoration: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* padding: 0.5rem 1rem; */
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+
 }
+
 .footer{
     display: block;
     background-color: #822659;
