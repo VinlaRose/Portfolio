@@ -227,13 +227,13 @@ body{
 
   .column {
     float: left;
-    width: 31%;
+    width: 30%;
     height: 13rem;
     
     border-radius: 12px;
     background-color:#6e42c121;
     padding: 20px;
-    margin: 10px;
+    margin: 15px;
     margin-top: 50px;
     box-shadow: 10px 10px 5px lightblue;
   }
@@ -253,7 +253,7 @@ body{
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
   @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 90%;
     }
   
 }
