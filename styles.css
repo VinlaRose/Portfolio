@@ -367,3 +367,28 @@ animation: typing 6s infinite alternate;
     width: 26ch;
 }
 }
+
+.blog-container{
+  text-align: center;
+
+}
+
+.blog-container2{
+  margin: 4rem;
+  border: 5px solid #7f33cfc9;
+  padding: 3rem;
+  border-radius: 12px;
+  
+}
+
+
+
+.link-blogs{
+  
+  background-color: #e83e8dd0;
+  text-decoration: none;
+  padding: 00.5rem;
+  color:white;
+  font-size: large;
+  border-radius: 10px;
+}
