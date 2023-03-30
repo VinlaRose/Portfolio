@@ -269,14 +269,14 @@ margin: auto;
   transform: scale(1.05);
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 90%;
@@ -356,15 +356,15 @@ white-space: nowrap;
 color:#44107a;
 
 overflow: hidden;
-animation: typing 6s infinite alternate;
+animation: typing 8s infinite alternate;
 }
 @keyframes typing {
 0% {
     width: 0ch;
 }
 
-50% {
-    width: 26ch;
+100% {
+    width: 100ch;
 }
 }
 
