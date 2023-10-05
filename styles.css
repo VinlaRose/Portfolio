@@ -13,6 +13,7 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+
 }
 
 
@@ -82,20 +83,27 @@ font-family: 'Rajdhani', sans-serif;
 
 /** navigation **/
 
+
 .navigation {
   background-image: linear-gradient(#6610f2, white);
   color: black;
   padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .navigation .nav-brand {
   font-weight: bold;
+  
 }
 
 .nav-brand a {
   text-decoration: none;
   color: inherit;
+  font-size: 46px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .navigation .nav-pills {
@@ -105,6 +113,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .navigation .link {
   color: black;
+  font-size: 20px;
 }
 
 .navigation .link-active {
@@ -193,12 +202,84 @@ margin: 1rem auto;
 border-radius: 2rem;
 
 }
+.blocks {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .block {
+  
+    background-color: #f3a9cc;
+    border-radius: 10px;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+  }
+  
+  /* CSS for Language List */
+  .block-heading {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .block-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .block-listPoints {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Style for individual languages */
+  .block-listPoints:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0.75); 
 
-.footer{
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
   
-  margin-top: 10rem;
+  .block-listPoints:nth-child(even) {
+    background-color: rgba(224, 224, 224, 0.75);
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
   
-}
+  
+  @media (max-width: 768px) {
+    .outer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .inner-box {
+      width: 100%;
+    }
+  }
+  
+
+/* CSS for Sticky Footer */
+.footer {
+    position: fixed; /* Fixed position */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Add padding for better visibility */
+  }
+  
 .footer-heading{
   text-align: center;
   color: #231557;
@@ -310,7 +391,7 @@ place-items: centre;
 
 background-image: linear-gradient(
   -225deg,
-  #231557 0%,
+  #e83e8c 0%,
   #44107a 29%,
   #ff1361 67%,
   #fff800 100%
@@ -326,9 +407,9 @@ text-fill-color: transparent;
 animation: textclip 2s linear infinite;
 display: inline-block;
     font-size: 80px;
-    text-align: center;
+    /* text-align: center; */
     
-margin: auto;
+/* margin: auto; */
 
     
     
